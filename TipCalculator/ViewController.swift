@@ -43,6 +43,8 @@ class ViewController: UIViewController {
         //update and tip and total labels
         tipLabel.text = String(format:"$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        print("Calculated Tip")
     }
 }
+
 
